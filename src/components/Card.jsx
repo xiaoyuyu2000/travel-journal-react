@@ -8,7 +8,7 @@ export default function Card(props) {
         <img className="card--image" src={props.item.img}></img>
         <div className="card--context">
           <div className="card--summary">
-            <img className="card--location" src="src/assets/location.jpg"></img>
+            <img className="card--location" src="../assets/location.jpg"></img>
             <p className="card--country">{props.item.country}</p>
             <u className="card--map">View on Google Maps</u>
           </div>
